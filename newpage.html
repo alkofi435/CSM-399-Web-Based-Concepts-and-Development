@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/newpage.css">
+  <title>Markdown to HTML Conversion</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="icon-container">
+            <img class="wiki-icon" src="Components/Images/Wiki.png">
+            <a href="entry.html">Home</a>
+            <a>Contact</a>
+            <a>About Us</a>
+        </div>
+    </div>
+        <div id="header">
+            <h1 class="head-title"><bold class="unique">Wi</bold><bold class="bold">ki<bold class="unique">E</bold><bold class="unique">y</bold><bold class="unique">e</bold> </bold><bold class="unique"> </bold></h1>
+            <p>the Best Encyclopedia</p>
+        </div>
+        <h1 class="header">Create a New Encyclopedia Entry</h1>
+        <div class="authorWrapper">
+            <label class="author-label" for="author">Author:</label><br>
+            <input class="author" type="text" autofocus/>
+        </div>
+        <div class="titleWrapper">
+            <label class="title-label" for="title">Title:</label><br>
+            <input class="title" type="text"/>
+        </div>
+        <div class="markdownWrapper">
+            <label for="markdown">Enter Content in Markdown Format:</label><br>
+            <textarea id="markdown" placeholder="Markdown to html conversion field. All writing here will be converted to it html equivalent form in the 'HTML equivalent' field below:"></textarea>
+        </div>
+        <label class="html-label" for="output">HTML Equivalent:</label>
+        <div id="output"></div>
+        <div id="footer">
+            <button class="btn-save">Save</button>
+            <button class="btn-exit">Exit</button>
+        </div>
+        <script type="module" src="../encyclopedia-main/new.js"></script>
+</body>
+</html>

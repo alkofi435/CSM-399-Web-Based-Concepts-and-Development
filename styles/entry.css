@@ -1,0 +1,80 @@
+main {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h1 {
+    font-family: Protest Guerrilla;
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.wiki-icon {
+    width: 140px;
+    height: 50px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.navbar a {
+    vertical-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 10px;
+    color: white;
+    text-decoration: underline;
+    font-family: Protest Guerrilla;
+}
+
+p {
+    font-family: Protest Guerrilla;
+    font-size: 30px;
+    margin-bottom: 60px;
+    text-decoration: underline;
+}
+
+.search-button, .random-button {
+    color: white;
+    background-color: black;
+    font-family: Protest Guerrilla;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-right: 50px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.search-button:hover, .random-button:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.search-button:active, .random-button:active {
+    opacity: 0.6
+}
+
+.search-button > a, .random-button > a {
+    color: white;
+    text-decoration: none;
+}

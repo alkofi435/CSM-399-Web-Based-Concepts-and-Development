@@ -1,0 +1,89 @@
+h1 {
+    font-size: 150px;
+    font-family: Protest Guerrilla;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.search-box-container {
+    text-align: center;
+}
+
+.search-box{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 600px;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: black;
+}
+
+.submit-button {
+    border: none;
+    vertical-align: top;
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.submit-button:hover {
+    opacity: 0.8
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.navbar a {
+    vertical-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 10px;
+    color: white;
+    text-decoration: underline;
+    font-family: Protest Guerrilla;
+}
+
+.wiki-icon {
+    width: 140px;
+    height: 50px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+    
+.icon-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.about-us {
+    margin-top: 200px;
+}
+
+hr {
+    background-color: black;
+    height: 3px;
+    border: none;
+    border-radius: 10px;
+}
